@@ -1,0 +1,18 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd spidr-airfryer-form
+        - npm install
+    build:
+      commands:
+        - cd spidr-airfryer-form
+        - npm run build
+  artifacts:
+    baseDirectory: spidr-airfryer-form/dist
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - spidr-airfryer-form/node_modules/**/*

@@ -1,0 +1,12 @@
+:root {
+  /* COLORS */
+  --color-primary: rgba(37, 38, 39);
+  --color-focus: rgba(50, 50, 50);
+  --color-secondary: rgba(71, 157, 175, 0.9);
+  --color-tertiary: rgba(110, 156, 170);
+  --color-quaternary: rgba(36, 57, 63);
+
+  --color-white: #d1d0ce;
+
+  --color-text: #d1d0ce;
+}
